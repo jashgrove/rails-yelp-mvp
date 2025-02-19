@@ -1,0 +1,21 @@
+<div class="card mx-auto" style="width: 50rem;">
+  <img src="https://images.squarespace-cdn.com/content/v1/5e977e9edb951e63b0b6bd04/1f14a350-8e1e-48b6-acd4-913a88a4ea2e/types-of-restaurants-classification-and-categories-explained.jpg" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <div class="row mx-auto">
+    <div class="col-6 col-sm-6 mt-2">
+    <h5 class="card-title"><%= @restaurant.name %></h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <div class="col-6 col-sm-3 mx-auto">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><%= @restaurant.category%></li>
+    <li class="list-group-item"><%= @restaurant.address %></li>
+    <li class="list-group-item"><%= @restaurant.phone_number %></li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Add a review</a>
+    </div>
+  </div>
+  </div>
+</div>
